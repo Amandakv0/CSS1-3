@@ -1,0 +1,133 @@
+body{
+    width: 1920px;
+    height: 3195px;
+}
+h1{
+    color: #000;
+    font-family: "Lato";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#smallParag{
+    width: 1220px;
+    color: #FF8000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.theoryFrame{
+    display: flex;
+    width: 696px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.theoryParagFrame{
+    display: flex;
+    width: 681px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+#theory{
+    align-self: stretch;
+    color: #D9AE00;
+    font-family: "Lato";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#theoryParag{
+    align-self: stretch;
+    color: #6D81B4;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#firstImg{
+    height: 415px;
+    align-self: stretch;
+}
+.stringTheoryMainFrame{
+    display: flex;
+    width: 696px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.explanationFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+#stringTheoryHeader{
+    align-self: stretch;
+    color: #4716E4;
+    text-align: right;
+    font-family: "Lato";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.stringFrame{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 3px solid #FF5DA3;
+    background-color: #FFC1E3;
+}
+#stringTheoryParag{
+    color: #616161;
+    text-align: right;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   /* flex: 1 0 0 ; es ras aketebs?*/
+}
+.theoryPointsMainFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.pointsHeaderFrame{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+#kepPointParag{
+    color: #414651;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+.listMainFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
