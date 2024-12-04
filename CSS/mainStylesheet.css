@@ -1,8 +1,10 @@
 body{
     width: 1920px;
     height: 3195px;
+    margin-left: 67px;
 }
 h1{
+    text-align: center;
     color: #000;
     font-family: "Lato";
     font-size: 72px;
@@ -12,12 +14,12 @@ h1{
     text-transform: uppercase;
 }
 #smallParag{
+    margin-bottom: 67px;
     width: 1220px;
     color: #FF8000;
     text-align: center;
     font-family: "Lato";
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 32px;
 }
@@ -36,6 +38,7 @@ h1{
     gap: 24px;
 }
 #theory{
+    margin: 0;
     align-self: stretch;
     color: #D9AE00;
     font-family: "Lato";
@@ -59,6 +62,8 @@ h1{
     align-self: stretch;
 }
 .BlackHoleMainFrame{
+    margin-bottom: 60px;
+    margin-top: 80px;
     display: flex;
     width: 1007px;
     padding: 64px;
